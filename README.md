@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/619025226-lab/dsh-followup-suggestion/actions/workflows/ci.yml/badge.svg)](https://github.com/619025226-lab/dsh-followup-suggestion/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/619025226-lab/dsh-followup-suggestion)](https://github.com/619025226-lab/dsh-followup-suggestion/releases)
 
 在 DeepSeek Harness 的输入框里，**每轮对话结束后自动出现一句根据刚才内容生成的「下一句」**。它显示为输入框里的灰色提示文字；输入框为空时按 **Enter** 就会采纳并直接发送，按 **Esc** 忽略，输入任意字符也会让它消失。
 
@@ -25,6 +26,8 @@
 - 可选：当前 profile 有可用的默认模型；没有时下一句自动退回本地句，润色入口隐藏
 
 ## 安装
+
+版本记录与安装说明：[Releases](https://github.com/619025226-lab/dsh-followup-suggestion/releases)。当前版本 **v0.3.1**。
 
 ```sh
 git clone https://github.com/619025226-lab/dsh-followup-suggestion.git
