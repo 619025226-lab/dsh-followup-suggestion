@@ -1,0 +1,33 @@
+{
+  "name": "dsh-followup-suggestion",
+  "version": "0.3.1",
+  "private": true,
+  "description": "Context-aware next-prompt hint plus draft polishing in the DeepSeek Harness composer",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/suggest.js",
+    "cordis.patch.yml",
+    "README.md",
+    "preview.png",
+    "preview-polish.png"
+  ],
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+# This package is also a valid DSH bundle: adding it to a profile's
+# `dsh.profile.bundles` list applies this insert on the next boot.
+- insert:
+    - id: followup-suggestion
+      name: dsh-followup-suggestion
+      config:
+        suppressOnComplete: true
