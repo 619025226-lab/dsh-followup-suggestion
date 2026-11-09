@@ -27,7 +27,12 @@
 
 ## 安装
 
-版本记录与安装说明：[v0.3.1 Release](https://github.com/619025226-lab/dsh-followup-suggestion/releases/tag/v0.3.1) · [所有版本](https://github.com/619025226-lab/dsh-followup-suggestion/releases)。Release 页也包含同一份安装说明。
+版本记录与安装说明：
+
+- 最新版 **v0.3.1**：<https://github.com/619025226-lab/dsh-followup-suggestion/releases/tag/v0.3.1>
+- 所有版本：<https://github.com/619025226-lab/dsh-followup-suggestion/releases>
+
+Release 页也包含同一份安装说明。
 
 ```sh
 git clone https://github.com/619025226-lab/dsh-followup-suggestion.git
